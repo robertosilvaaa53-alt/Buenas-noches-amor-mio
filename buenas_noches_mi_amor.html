@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#17040c">
+<title>Buenas noches, mi amor ❤️</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%;font-family:Georgia,'Times New Roman',serif}
+  body{
+    color:#fff4f5; overflow-x:hidden;
+    background:radial-gradient(ellipse at 50% 25%,#68142d 0%,#320817 38%,#10030a 78%);
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:28px 16px; position:relative;
+  }
+  .stars,.stars:before,.stars:after{position:fixed;inset:0;content:"";pointer-events:none;
+    background-image:radial-gradient(2px 2px at 20% 25%,#fff 45%,transparent 60%),
+    radial-gradient(1px 1px at 70% 16%,#ffdce5 45%,transparent 60%),
+    radial-gradient(2px 2px at 84% 63%,#fff 45%,transparent 60%),
+    radial-gradient(1px 1px at 34% 75%,#ffdce5 45%,transparent 60%),
+    radial-gradient(1px 1px at 58% 45%,#fff 45%,transparent 60%);
+    animation:twinkle 4s ease-in-out infinite alternate}
+  .stars:before{transform:translate(35px,18px);opacity:.55;animation-delay:1s}
+  .stars:after{transform:translate(-25px,-10px);opacity:.4;animation-delay:2s}
+  @keyframes twinkle{from{opacity:.35}to{opacity:1}}
+  .petals{position:fixed;inset:0;overflow:hidden;pointer-events:none}
+  .petal{position:absolute;top:-10vh;color:#e83b61;font-size:22px;opacity:.65;animation:fall linear infinite}
+  .petal:nth-child(1){left:8%;animation-duration:12s;animation-delay:-3s}
+  .petal:nth-child(2){left:22%;animation-duration:16s;animation-delay:-10s;font-size:16px}
+  .petal:nth-child(3){left:78%;animation-duration:14s;animation-delay:-6s}
+  .petal:nth-child(4){left:91%;animation-duration:18s;animation-delay:-12s;font-size:18px}
+  .petal:nth-child(5){left:48%;animation-duration:15s;animation-delay:-8s;font-size:14px}
+  @keyframes fall{0%{transform:translateY(-10vh) rotate(0deg);opacity:0}15%{opacity:.7}100%{transform:translateY(115vh) rotate(300deg);opacity:0}}
+  .card{position:relative;width:min(680px,100%);text-align:center;padding:36px 24px 32px;
+    border:1px solid rgba(255,190,205,.38);border-radius:28px;
+    background:linear-gradient(145deg,rgba(93,8,34,.65),rgba(24,4,15,.82));
+    box-shadow:0 0 55px rgba(224,31,76,.19),inset 0 0 35px rgba(255,180,195,.04);
+    backdrop-filter:blur(8px);animation:appear 1.4s ease both}
+  @keyframes appear{from{opacity:0;transform:translateY(18px) scale(.98)}to{opacity:1;transform:none}}
+  .eyebrow{letter-spacing:4px;text-transform:uppercase;color:#ffc0ce;font:11px Arial,sans-serif}
+  h1{font-size:clamp(34px,8vw,58px);line-height:1.08;margin:17px 0 12px;color:#fff4f6;text-shadow:0 0 22px #e83b61}
+  .subtitle{font-size:18px;color:#f8cbd4;line-height:1.7;margin:0 auto;max-width:490px}
+  .bouquet{font-size:clamp(48px,12vw,76px);margin:22px 0 10px;filter:drop-shadow(0 8px 12px rgba(255,0,55,.24));animation:sway 4s ease-in-out infinite}
+  @keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+  .message{font-size:17px;line-height:1.9;color:#fff0f2;max-width:500px;margin:18px auto}
+  .signature{font-size:23px;color:#ff9eb2;font-style:italic;margin-top:22px}
+  .heart{color:#ff4b72;display:inline-block;animation:beat 1.2s infinite}
+  @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}
+  button{margin-top:23px;padding:13px 22px;border:1px solid #ff9eb2;border-radius:999px;
+    color:#fff;background:linear-gradient(135deg,#a8143b,#e52b56);font-size:15px;cursor:pointer;
+    box-shadow:0 6px 24px rgba(225,27,75,.28);transition:transform .2s,box-shadow .2s}
+  button:hover{transform:translateY(-2px);box-shadow:0 9px 30px rgba(225,27,75,.45)}
+  #surprise{display:none;margin:20px auto 0;color:#ffd3dc;font-size:18px;line-height:1.7;max-width:440px}
+  .footer{margin-top:25px;font:11px Arial,sans-serif;letter-spacing:2px;color:#c98495}
+  @media(max-width:420px){.card{padding:30px 18px}.message{font-size:16px}.subtitle{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<div class="petals" aria-hidden="true">
+  <span class="petal">🌹</span><span class="petal">❣</span><span class="petal">🌹</span>
+  <span class="petal">❣</span><span class="petal">🌹</span>
+</div>
+<main class="card">
+  <div class="eyebrow">Un detalle para alguien especial</div>
+  <h1>Buenas noches,<br>mi amor</h1>
+  <p class="subtitle">Que la luna cuide tus sueños y las estrellas te recuerden cuánto te quiero.</p>
+  <div class="bouquet" aria-label="Rosas rojas">🌹🌹🌹</div>
+  <p class="message">
+    Si pudiera, estaría a tu lado ahora mismo para darte un abrazo,
+    un beso en la frente y desearte dulces sueños. Aunque nos separen
+    kilómetros o el silencio de la noche, mi corazón siempre encuentra
+    el camino hacia ti.
+  </p>
+  <p class="message">Descansa, princesa. Que mañana despiertes con una sonrisa tan bonita como la que tú pones en mi vida. <span class="heart">♥</span></p>
+  <div class="signature">Con todo mi amor, para ti ❤️</div>
+  <button onclick="document.getElementById('surprise').style.display='block';this.textContent='Te quiero muchísimo ❤️';">Toca aquí, mi vida 💌</button>
+  <div id="surprise">Eres mi último pensamiento antes de dormir y uno de mis motivos favoritos para sonreír. Que tengas una noche hermosa, mi amor. 🌙🌹</div>
+  <div class="footer">HECHO CON AMOR, SOLO PARA TI</div>
+</main>
+</body>
+</html>
